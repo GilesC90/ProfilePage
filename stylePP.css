@@ -1,0 +1,191 @@
+.header{
+    height: 70px;
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header div p a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.header div p a:hover{
+    color: #16a288;
+}
+.header div p:nth-child(3){
+    font-weight: bold;
+}
+.space-around{
+    justify-content: space-around;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+
+}
+
+.fifty{
+    width: 50%;
+}
+
+.signout{
+    background-color: #16a288;
+    color: white;
+    border: 0px;
+    padding: 5px;
+}
+
+.main{
+    height: 600px;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* background-color: lightsteelblue; */
+    justify-content: center;
+}
+
+.col-1{
+    flex: 2;
+    height: 100%;
+    /* background-color: lemonchiffon; */
+    margin-right: 10px;
+}
+
+.card{
+    background-color: white;
+    border: 2px solid #16a288;
+    margin-top: 20px;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.card-header{
+    background-color: #16a288;
+    height: 100px;
+}
+
+.profile-picture{
+    border-radius: 50%;
+    margin-top: -70px;
+
+}
+
+.card-content{
+    padding: 20px;
+}
+
+.card-content p{
+    padding-left: 5px;
+}
+
+.card-content a:link{
+    padding-left: 5px;
+}
+.second-card{
+    background-color: white;
+    border: 2px solid #16a288;
+    margin-top: 100px;
+}
+
+.second-card-header{
+    height: 30px;
+    align-items: center;
+    background-color: dimgray;
+    padding: 10px;
+    display: flex;
+    color: white;   
+}
+.second-card-header h2{
+    margin: 0px;
+    margin-left: 10px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+.education-card-content{
+    padding: 10px;
+}
+.col-2{
+    height: 100%;
+    flex: 1/5;
+    /* background-color: mediumorchid; */
+    margin-left: 10px;
+}
+.third-card-header{
+    height: 30px;
+    align-items: center;
+    background-color: dimgray;
+    padding: 10px;
+    display: flex;
+    color: white; 
+    justify-content: space-evenly;
+}
+
+.third-card-header img{
+    margin-left: 0px;
+}
+
+.third-card-content img{
+    margin-left: 10px;
+}
+.third-card-header p{
+    margin: 0px;
+    margin-left: 15px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    
+}
+
+.third-card-content{
+    margin-left: 10px;
+}
+
+.third-card-content img{
+    margin-left: 0;
+}
+
+.approve-connection{
+    padding-right: 5px;
+}
+
+.third-card-content p{
+    margin-left: 10px;
+    margin-right: 45px;
+}
+
+.fourth-card-header{
+    height: 30px;
+    align-items: center;
+    background-color: dimgray;
+    padding: 10px;
+    display: flex;
+    color: white; 
+    justify-content: space-evenly;
+}
+
+.fourth-card-header img{
+    margin-left: -15px;
+}
+
+.fourth-card-content{
+    margin-left: 10px;
+}
+
+.fourth-card-content p{
+    margin-left: 10px;
+    margin-right: 45px;
+}
+
+.VM-flex{
+    border-top: 2px solid #16a288;
+    margin-left: -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.VM-flex a:link{
+    margin-left: 10px;
+}
